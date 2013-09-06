@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 0 0 0 0)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 0)
@@ -97,5 +97,10 @@
     (uvia_drill 0.127)
     (add_net "")
   )
+
+  (gr_line (start 127 175.26) (end 127 121.92) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 195.58 175.26) (end 127 175.26) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 195.58 121.92) (end 195.58 175.26) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 127 121.92) (end 195.58 121.92) (angle 90) (layer Edge.Cuts) (width 0.1))
 
 )
